@@ -1,0 +1,21 @@
+/* -----------------------------------------
+	05. Footer
+----------------------------------------- */
+.footer {
+	.container-fluid {
+		max-width: 1700px;
+	}
+}
+
+.footer-info {
+	padding: 40px 0;
+	background-color: #222222;
+	color: #FFF;
+	font-family: $secondary-font;
+	font-size: 14px;
+
+	p {
+		margin: 0;
+	}
+}
+

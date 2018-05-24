@@ -1,0 +1,55 @@
+/* -----------------------------------------
+  09.  MOBILE MENU
+----------------------------------------- */
+#mobilemenu {
+	display: none;
+
+	@media ( max-width: $screen-sm-max ) {
+		display: block;
+	}
+}
+
+#mobile-bar {
+	display: none;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+	background: #FFF;
+	padding: 15px 10px 0 10px;
+	height: 48px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+	@media ( max-width: $screen-sm-max ) {
+		display: block;
+	}
+}
+
+.menu-trigger,
+.menu-trigger:focus {
+	width: 24px;
+	height: 21px;
+	background: none;
+	cursor: pointer;
+	opacity: 0.85;
+	margin: 0;
+	outline: none;
+	position: absolute;
+	left: 10px;
+	top: 9px;
+	color: #333;
+	font-size: 30px;
+	line-height: 1;
+}
+.menu-trigger:hover { opacity: 0.95; color: #333;}
+.menu-trigger:active { opacity: 1; }
+
+.mob-title {
+	color: #222;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}

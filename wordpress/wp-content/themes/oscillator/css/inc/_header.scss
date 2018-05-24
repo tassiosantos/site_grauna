@@ -1,0 +1,47 @@
+/* -----------------------------------------
+	03. Header
+----------------------------------------- */
+.header {
+	height: 100px;
+	position: relative;
+	z-index: 100;
+	color: $text-on-primary;
+	background-color: rgba(white,0.1);
+	padding: 25px 0;
+	background-position: top center;
+	background-size: cover;
+
+	.container-fluid {
+		position: relative;
+		max-width: 1700px;
+	}
+
+	.header-sticky & {
+		position: fixed;
+		width: 100%;
+		top: 0;
+	}
+}
+
+.header-sticky #page {
+	padding-top: 100px;
+}
+
+.site-logo {
+	margin: 0;
+	line-height: normal;
+
+	a {
+		color: #FFF;
+		text-transform: uppercase;
+		font-family: $secondary-font;
+		font-size: 24px;
+	}
+}
+
+.site-tagline {
+	font-size: 12px;
+	font-family: $secondary-font;
+	margin: 0;
+	line-height: normal;
+}

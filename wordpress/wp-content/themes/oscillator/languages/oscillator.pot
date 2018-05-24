@@ -1,0 +1,2030 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Oscillator\n"
+"POT-Creation-Date: 2016-02-12 14:17+0200\n"
+"PO-Revision-Date: 2015-11-03 15:33+0200\n"
+"Last-Translator: Anastis Sourgoutsidis <anastis@cssigniter.com>\n"
+"Language-Team: Anastis Sourgoutsidis <anastis@cssigniter.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:5 inc/customizer.php:300
+msgid "Page not found (404)"
+msgstr ""
+
+#: 404.php:11
+msgid "The page you were looking for can not be found! Perhaps try searching?"
+msgstr ""
+
+#: comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: functions.php:70
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:71
+msgid "Footer Menu"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Montserrat and Lato, translate this to 'off'. Do not translate into your own language.
+#: functions.php:112
+msgctxt "Montserrat and Lato fonts: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:256
+msgid "No posts found."
+msgstr ""
+
+#: functions.php:301
+msgctxt "widget area"
+msgid "Blog"
+msgstr ""
+
+#: functions.php:303
+msgid "This is the main sidebar."
+msgstr ""
+
+#: functions.php:311
+msgctxt "widget area"
+msgid "Pages"
+msgstr ""
+
+#: functions.php:313
+msgid ""
+"This sidebar appears on your static pages. If empty, the Blog sidebar will "
+"be shown instead."
+msgstr ""
+
+#: functions.php:321
+msgctxt "widget area"
+msgid "Artists"
+msgstr ""
+
+#: functions.php:323
+msgid "This sidebar appears on your artist pages."
+msgstr ""
+
+#: functions.php:331
+msgctxt "widget area"
+msgid "Discography"
+msgstr ""
+
+#: functions.php:333
+msgid "This sidebar appears on your discography pages."
+msgstr ""
+
+#: functions.php:341
+msgctxt "widget area"
+msgid "Events"
+msgstr ""
+
+#: functions.php:343
+msgid "This sidebar appears on your event pages."
+msgstr ""
+
+#: functions.php:351
+msgctxt "widget area"
+msgid "Videos"
+msgstr ""
+
+#: functions.php:353
+msgid "This sidebar appears on your video pages."
+msgstr ""
+
+#: functions.php:361
+msgctxt "widget area"
+msgid "Front page"
+msgstr ""
+
+#: functions.php:363
+msgid "This widget area appears on your widgetized front page template."
+msgstr ""
+
+#: functions.php:371
+msgctxt "widget area"
+msgid "Footer"
+msgstr ""
+
+#: functions.php:373
+msgid "This widget area appears on your footer."
+msgstr ""
+
+#: functions.php:433
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:596
+msgid "Lyrics"
+msgstr ""
+
+#: functions.php:641
+msgid "Cannot show track listings from non-public, non-published posts."
+msgstr ""
+
+#: functions.php:651
+msgctxt "color scheme"
+msgid "Default"
+msgstr ""
+
+#: functions.php:652
+msgctxt "color scheme"
+msgid "Blue"
+msgstr ""
+
+#: functions.php:653
+msgctxt "color scheme"
+msgid "Green"
+msgstr ""
+
+#: functions.php:654
+msgctxt "color scheme"
+msgid "Pastel"
+msgstr ""
+
+#: functions.php:655
+msgctxt "color scheme"
+msgid "Pink"
+msgstr ""
+
+#: functions.php:656
+msgctxt "color scheme"
+msgid "Red"
+msgstr ""
+
+#: inc/custom-fields-artist.php:6
+msgctxt "post type general name"
+msgid "Artists"
+msgstr ""
+
+#: inc/custom-fields-artist.php:7 inc/custom-fields-artist.php:23
+msgctxt "post type singular name"
+msgid "Artist"
+msgstr ""
+
+#: inc/custom-fields-artist.php:8
+msgctxt "admin menu"
+msgid "Artists"
+msgstr ""
+
+#: inc/custom-fields-artist.php:9
+msgctxt "add new on admin bar"
+msgid "Artist"
+msgstr ""
+
+#: inc/custom-fields-artist.php:10 inc/custom-fields-discography.php:10
+#: inc/custom-fields-event.php:10 inc/custom-fields-gallery.php:10
+#: inc/custom-fields-slide.php:10 inc/custom-fields-video.php:10
+msgid "Add New"
+msgstr ""
+
+#: inc/custom-fields-artist.php:11
+msgid "Add New Artist"
+msgstr ""
+
+#: inc/custom-fields-artist.php:12
+msgid "Edit Artist"
+msgstr ""
+
+#: inc/custom-fields-artist.php:13
+msgid "New Artist"
+msgstr ""
+
+#: inc/custom-fields-artist.php:14
+msgid "View Artist"
+msgstr ""
+
+#: inc/custom-fields-artist.php:15
+msgid "Search Artists"
+msgstr ""
+
+#: inc/custom-fields-artist.php:16
+msgid "No Artists found"
+msgstr ""
+
+#: inc/custom-fields-artist.php:17
+msgid "No Artists found in the trash"
+msgstr ""
+
+#: inc/custom-fields-artist.php:18
+msgid "Parent Artist:"
+msgstr ""
+
+#: inc/custom-fields-artist.php:29
+msgctxt "post type slug"
+msgid "artist"
+msgstr ""
+
+#: inc/custom-fields-artist.php:38
+msgctxt "taxonomy general name"
+msgid "Artist Categories"
+msgstr ""
+
+#: inc/custom-fields-artist.php:39
+msgctxt "taxonomy singular name"
+msgid "Artist Category"
+msgstr ""
+
+#: inc/custom-fields-artist.php:40
+msgid "Search Artist Categories"
+msgstr ""
+
+#: inc/custom-fields-artist.php:41
+msgid "All Artist Categories"
+msgstr ""
+
+#: inc/custom-fields-artist.php:42
+msgid "Parent Artist Category"
+msgstr ""
+
+#: inc/custom-fields-artist.php:43
+msgid "Parent Artist Category:"
+msgstr ""
+
+#: inc/custom-fields-artist.php:44
+msgid "Edit Artist Category"
+msgstr ""
+
+#: inc/custom-fields-artist.php:45
+msgid "Update Artist Category"
+msgstr ""
+
+#: inc/custom-fields-artist.php:46
+msgid "Add New Artist Category"
+msgstr ""
+
+#: inc/custom-fields-artist.php:47
+msgid "New Artist Category Name"
+msgstr ""
+
+#: inc/custom-fields-artist.php:48 inc/custom-fields-event.php:48
+#: inc/custom-fields-gallery.php:48 inc/custom-fields-slide.php:48
+#: inc/custom-fields-video.php:48 single-ci_theme_artist.php:27
+msgid "Categories"
+msgstr ""
+
+#: inc/custom-fields-artist.php:49
+msgid "View Artist Category"
+msgstr ""
+
+#: inc/custom-fields-artist.php:50
+msgid "Popular Artist Categories"
+msgstr ""
+
+#: inc/custom-fields-artist.php:56
+msgctxt "taxonomy slug"
+msgid "artist-category"
+msgstr ""
+
+#: inc/custom-fields-artist.php:70
+msgid "Artist Settings"
+msgstr ""
+
+#: inc/custom-fields-artist.php:78 inc/custom-fields-discography.php:154
+#: inc/custom-fields-event.php:93 inc/custom-fields-video.php:85
+msgid "Information"
+msgstr ""
+
+#: inc/custom-fields-artist.php:80 inc/custom-fields-discography.php:156
+#: inc/custom-fields-event.php:95 inc/custom-fields-video.php:87
+msgid ""
+"You may include as many rows of information as you want. Press <em>Add "
+"Field</em> to add a new row. Press <em>Remove me</em> to delete a specific "
+"row. You can rearrange rows by drag and drop. You may leave empty the title "
+"or the description, but not both."
+msgstr ""
+
+#: inc/custom-fields-artist.php:81 inc/custom-fields-discography.php:157
+#: inc/custom-fields-event.php:96 inc/custom-fields-video.php:88
+msgid ""
+"Allowed tags in description: a (href, class), span (class), i (class), b, "
+"em, strong. E.g.: <code>&lt;a href=\"#\" class=\"btn\">Button text&lt;/a></"
+"code>"
+msgstr ""
+
+#: inc/custom-fields-artist.php:93 inc/custom-fields-artist.php:102
+#: inc/custom-fields-discography.php:169 inc/custom-fields-discography.php:178
+#: inc/custom-fields-event.php:108 inc/custom-fields-event.php:117
+#: inc/custom-fields-video.php:100 inc/custom-fields-video.php:109
+#: inc/widgets/ci-events.php:194 inc/widgets/ci-hero.php:122
+#: inc/widgets/ci-items.php:155 inc/widgets/ci-latest-post-type.php:144
+#: inc/widgets/ci-text.php:109
+msgid "Title:"
+msgstr ""
+
+#: inc/custom-fields-artist.php:94 inc/custom-fields-artist.php:103
+#: inc/custom-fields-discography.php:170 inc/custom-fields-discography.php:179
+#: inc/custom-fields-event.php:109 inc/custom-fields-event.php:118
+#: inc/custom-fields-video.php:101 inc/custom-fields-video.php:110
+msgid "Description:"
+msgstr ""
+
+#: inc/custom-fields-artist.php:95 inc/custom-fields-artist.php:104
+#: inc/custom-fields-discography.php:171 inc/custom-fields-discography.php:180
+#: inc/custom-fields-event.php:110 inc/custom-fields-event.php:119
+#: inc/custom-fields-video.php:102 inc/custom-fields-video.php:111
+#: inc/widgets/ci-items.php:193 inc/widgets/ci-items.php:224
+msgid "Remove me"
+msgstr ""
+
+#: inc/custom-fields-artist.php:107 inc/custom-fields-discography.php:183
+#: inc/custom-fields-event.php:122 inc/custom-fields-video.php:114
+msgid "Add Field"
+msgstr ""
+
+#: inc/custom-fields-discography.php:6
+msgctxt "post type general name"
+msgid "Discography"
+msgstr ""
+
+#: inc/custom-fields-discography.php:7 inc/custom-fields-discography.php:23
+msgctxt "post type singular name"
+msgid "Discography Item"
+msgstr ""
+
+#: inc/custom-fields-discography.php:8
+msgctxt "admin menu"
+msgid "Discography"
+msgstr ""
+
+#: inc/custom-fields-discography.php:9
+msgctxt "add new on admin bar"
+msgid "Discography Item"
+msgstr ""
+
+#: inc/custom-fields-discography.php:11
+msgid "Add New Discography Item"
+msgstr ""
+
+#: inc/custom-fields-discography.php:12
+msgid "Edit Discography Item"
+msgstr ""
+
+#: inc/custom-fields-discography.php:13
+msgid "New Discography Item"
+msgstr ""
+
+#: inc/custom-fields-discography.php:14
+msgid "View Discography Item"
+msgstr ""
+
+#: inc/custom-fields-discography.php:15
+msgid "Search Discography Items"
+msgstr ""
+
+#: inc/custom-fields-discography.php:16
+msgid "No Discography Items found"
+msgstr ""
+
+#: inc/custom-fields-discography.php:17
+msgid "No Discography Items found in the trash"
+msgstr ""
+
+#: inc/custom-fields-discography.php:18
+msgid "Parent Discography Item:"
+msgstr ""
+
+#: inc/custom-fields-discography.php:29
+msgctxt "post type slug"
+msgid "discography"
+msgstr ""
+
+#: inc/custom-fields-discography.php:38
+msgctxt "taxonomy general name"
+msgid "Discography Sections"
+msgstr ""
+
+#: inc/custom-fields-discography.php:39
+msgctxt "taxonomy singular name"
+msgid "Discography Section"
+msgstr ""
+
+#: inc/custom-fields-discography.php:40
+msgid "Search Discography Sections"
+msgstr ""
+
+#: inc/custom-fields-discography.php:41
+msgid "All Discography Sections"
+msgstr ""
+
+#: inc/custom-fields-discography.php:42
+msgid "Parent Discography Section"
+msgstr ""
+
+#: inc/custom-fields-discography.php:43
+msgid "Parent Discography Section:"
+msgstr ""
+
+#: inc/custom-fields-discography.php:44
+msgid "Edit Discography Section"
+msgstr ""
+
+#: inc/custom-fields-discography.php:45
+msgid "Update Discography Section"
+msgstr ""
+
+#: inc/custom-fields-discography.php:46
+msgid "Add New Discography Section"
+msgstr ""
+
+#: inc/custom-fields-discography.php:47
+msgid "New Discography Section Name"
+msgstr ""
+
+#: inc/custom-fields-discography.php:48
+msgid "Discography Sections"
+msgstr ""
+
+#: inc/custom-fields-discography.php:49
+msgid "View Discography Section"
+msgstr ""
+
+#: inc/custom-fields-discography.php:50
+msgid "Popular Discography Sections"
+msgstr ""
+
+#: inc/custom-fields-discography.php:56
+msgctxt "taxonomy slug"
+msgid "section"
+msgstr ""
+
+#: inc/custom-fields-discography.php:69
+msgid "Discography Settings"
+msgstr ""
+
+#: inc/custom-fields-discography.php:76 inc/custom-fields-event.php:76
+#: inc/custom-fields-video.php:76
+msgid "Details"
+msgstr ""
+
+#: inc/custom-fields-discography.php:77
+msgid "Release Date:"
+msgstr ""
+
+#: inc/custom-fields-discography.php:78
+msgid "Record Label:"
+msgstr ""
+
+#: inc/custom-fields-discography.php:79
+msgid "Catalog Number:"
+msgstr ""
+
+#: inc/custom-fields-discography.php:82
+msgid "Tracks"
+msgstr ""
+
+#: inc/custom-fields-discography.php:83
+msgid ""
+"You may add the tracks of your release, along with related information such "
+"as a Download URL, Buy URL and lyrics. Press the <em>Add Track</em> button "
+"to add a new track, and individually the <em>Remove me</em> button to delete "
+"a track. You can also use a SoundCloud URL in place of the Play URL."
+msgstr ""
+
+#: inc/custom-fields-discography.php:89
+msgctxt "number sign"
+msgid "#"
+msgstr ""
+
+#: inc/custom-fields-discography.php:90 inc/custom-fields-discography.php:110
+#: inc/custom-fields-discography.php:129
+msgid "Title"
+msgstr ""
+
+#: inc/custom-fields-discography.php:91 inc/custom-fields-discography.php:111
+#: inc/custom-fields-discography.php:130
+msgid "Subtitle"
+msgstr ""
+
+#: inc/custom-fields-discography.php:92 inc/custom-fields-discography.php:112
+#: inc/custom-fields-discography.php:131
+msgid "Artist"
+msgstr ""
+
+#: inc/custom-fields-discography.php:93 inc/custom-fields-discography.php:113
+#: inc/custom-fields-discography.php:132
+msgid "Buy URL"
+msgstr ""
+
+#: inc/custom-fields-discography.php:94 inc/custom-fields-discography.php:114
+#: inc/custom-fields-discography.php:133
+msgid "Play URL"
+msgstr ""
+
+#: inc/custom-fields-discography.php:95 inc/custom-fields-discography.php:115
+#: inc/custom-fields-discography.php:134
+msgid "Download URL"
+msgstr ""
+
+#: inc/custom-fields-discography.php:109 inc/custom-fields-discography.php:128
+msgctxt "track number"
+msgid "#"
+msgstr ""
+
+#: inc/custom-fields-discography.php:119 inc/custom-fields-discography.php:138
+msgid "Song Lyrics"
+msgstr ""
+
+#: inc/custom-fields-discography.php:142
+msgid "Add Track"
+msgstr ""
+
+#: inc/custom-fields-discography.php:146
+msgid ""
+"To display the track listing in your content, you need to use the "
+"<code>[tracklisting]</code> shortcode at the desired position."
+msgstr ""
+
+#: inc/custom-fields-discography.php:147
+msgid ""
+"The <code>[tracklisting]</code> shortcode, by default will display the "
+"tracks of the current discography item. You may also display the track "
+"listing of any discography item in any other post/page or widget (that "
+"supports shortcodes) by passing the <code>ID</code> or <code>slug</code> "
+"parameter to the shortcode. E.g. <code>[tracklisting id=\"25\"]</code> or "
+"<code>[tracklisting slug=\"the-division-bell\"]</code>"
+msgstr ""
+
+#: inc/custom-fields-discography.php:148
+msgid ""
+"You can also selectively display tracks, by passing their track number "
+"(counting from 1), separated by a comma, like this <code>[tracklisting "
+"tracks=\"2,5,8\"]</code> and can limit the total number of tracks displayed "
+"like <code>[tracklisting limit=\"3\"]</code>"
+msgstr ""
+
+#: inc/custom-fields-discography.php:149
+msgid ""
+"Of course, you can mix and match the parameters, so the following is totally "
+"valid: <code>[tracklisting slug=\"the-division-bell\" tracks=\"2,5,8\" limit="
+"\"2\"]</code>"
+msgstr ""
+
+#: inc/custom-fields-discography.php:150
+msgid ""
+"You may also add a SoundCloud track by copying the track's URL (the one "
+"given by it's <em>Share</em> button) and pasting it into the Play URL field."
+msgstr ""
+
+#: inc/custom-fields-event.php:6
+msgctxt "post type general name"
+msgid "Events"
+msgstr ""
+
+#: inc/custom-fields-event.php:7 inc/custom-fields-event.php:23
+msgctxt "post type singular name"
+msgid "Event"
+msgstr ""
+
+#: inc/custom-fields-event.php:8
+msgctxt "admin menu"
+msgid "Events"
+msgstr ""
+
+#: inc/custom-fields-event.php:9
+msgctxt "add new on admin bar"
+msgid "Event"
+msgstr ""
+
+#: inc/custom-fields-event.php:11
+msgid "Add New Event"
+msgstr ""
+
+#: inc/custom-fields-event.php:12
+msgid "Edit Event"
+msgstr ""
+
+#: inc/custom-fields-event.php:13
+msgid "New Event"
+msgstr ""
+
+#: inc/custom-fields-event.php:14
+msgid "View Event"
+msgstr ""
+
+#: inc/custom-fields-event.php:15
+msgid "Search Events"
+msgstr ""
+
+#: inc/custom-fields-event.php:16
+msgid "No Events found"
+msgstr ""
+
+#: inc/custom-fields-event.php:17
+msgid "No Events found in the trash"
+msgstr ""
+
+#: inc/custom-fields-event.php:18
+msgid "Parent Event:"
+msgstr ""
+
+#: inc/custom-fields-event.php:29
+msgctxt "post type slug"
+msgid "event"
+msgstr ""
+
+#: inc/custom-fields-event.php:38
+msgctxt "taxonomy general name"
+msgid "Event Categories"
+msgstr ""
+
+#: inc/custom-fields-event.php:39
+msgctxt "taxonomy singular name"
+msgid "Event Category"
+msgstr ""
+
+#: inc/custom-fields-event.php:40
+msgid "Search Event Categories"
+msgstr ""
+
+#: inc/custom-fields-event.php:41
+msgid "All Event Categories"
+msgstr ""
+
+#: inc/custom-fields-event.php:42
+msgid "Parent Event Category"
+msgstr ""
+
+#: inc/custom-fields-event.php:43
+msgid "Parent Event Category:"
+msgstr ""
+
+#: inc/custom-fields-event.php:44
+msgid "Edit Event Category"
+msgstr ""
+
+#: inc/custom-fields-event.php:45
+msgid "Update Event Category"
+msgstr ""
+
+#: inc/custom-fields-event.php:46
+msgid "Add New Event Category"
+msgstr ""
+
+#: inc/custom-fields-event.php:47
+msgid "New Event Category Name"
+msgstr ""
+
+#: inc/custom-fields-event.php:49
+msgid "View Event Category"
+msgstr ""
+
+#: inc/custom-fields-event.php:50
+msgid "Popular Event Categories"
+msgstr ""
+
+#: inc/custom-fields-event.php:56
+msgctxt "taxonomy slug"
+msgid "event-category"
+msgstr ""
+
+#: inc/custom-fields-event.php:69
+msgid "Event Settings"
+msgstr ""
+
+#: inc/custom-fields-event.php:77
+msgid "Event Location. For example: Ibiza, Spain"
+msgstr ""
+
+#: inc/custom-fields-event.php:78
+msgid "Event Venue. For example: Ushuaia"
+msgstr ""
+
+#: inc/custom-fields-event.php:79
+msgid "Recurrent Event"
+msgstr ""
+
+#: inc/custom-fields-event.php:81
+#, php-format
+msgid ""
+"Enter the recurrence of the event. You may use <code>%1$s</code> to "
+"emphasise text. (e.g. <code>Every %1$sTuesday at 9pm%2$s</code>)"
+msgstr ""
+
+#: inc/custom-fields-event.php:85
+msgid "Event Recurrence:"
+msgstr ""
+
+#: inc/custom-fields-event.php:88
+msgid "Event Date. Use the Date Picker (Click inside the field)."
+msgstr ""
+
+#: inc/custom-fields-event.php:89
+msgid "Event Time (e.g. <b>21:00</b>)"
+msgstr ""
+
+#: inc/custom-fields-event.php:127
+msgid "Status"
+msgstr ""
+
+#: inc/custom-fields-event.php:128
+msgid ""
+"In this section you can create two status buttons. The <em>Upcoming date</"
+"em> button will be the one displayed <strong>before</strong> the event's "
+"date, while the <em>Past date</em> button will be displayed <strong>after</"
+"strong> the event's date passes. This is useful so that you will not need to "
+"keep coming back editing the event, in situations like, providing a <em>Buy "
+"Tickets</em> button before the event and a <em>Watch Recorded</em> button "
+"afterwards. Leave a button's URL empty if you want it to be unclickable (e."
+"g. when <strong>Canceled</strong>)."
+msgstr ""
+
+#: inc/custom-fields-event.php:129
+msgid "Upcoming date button"
+msgstr ""
+
+#: inc/custom-fields-event.php:130
+msgid "Button text (e.g. <em>Buy now</em>, <em>Watch live</em>, etc):"
+msgstr ""
+
+#: inc/custom-fields-event.php:131 inc/custom-fields-event.php:135
+#: inc/widgets/ci-hero.php:126
+msgid "Button URL:"
+msgstr ""
+
+#: inc/custom-fields-event.php:133
+msgid "Past date button"
+msgstr ""
+
+#: inc/custom-fields-event.php:134
+msgid "Button text (e.g. <em>Buy album</em>, <em>Watch recorded</em>, etc):"
+msgstr ""
+
+#: inc/custom-fields-event.php:139
+msgid "Map"
+msgstr ""
+
+#: inc/custom-fields-event.php:140
+msgid ""
+"Enter a place or address and press <em>Search place/address</em>. "
+"Alternatively, you can drag the marker to the desired position, or double "
+"click on the map to set a new location."
+msgstr ""
+
+#: inc/custom-fields-event.php:144
+msgid "Search place/address"
+msgstr ""
+
+#: inc/custom-fields-event.php:145
+msgid "Google Maps"
+msgstr ""
+
+#: inc/custom-fields-event.php:152
+msgid "Location Latitude."
+msgstr ""
+
+#: inc/custom-fields-event.php:156
+msgid "Location Longitude."
+msgstr ""
+
+#: inc/custom-fields-event.php:161
+msgid "Update map"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:6
+msgctxt "post type general name"
+msgid "Galleries"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:7 inc/custom-fields-gallery.php:23
+msgctxt "post type singular name"
+msgid "Gallery"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:8
+msgctxt "admin menu"
+msgid "Galleries"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:9
+msgctxt "add new on admin bar"
+msgid "Gallery"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:11
+msgid "Add New Gallery"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:12
+msgid "Edit Gallery"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:13
+msgid "New Gallery"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:14 item-ci_theme_gallery.php:14
+#: item-tall-ci_theme_gallery.php:14
+msgid "View Gallery"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:15
+msgid "Search Galleries"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:16
+msgid "No Galleries found"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:17
+msgid "No Galleries found in the trash"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:18
+msgid "Parent Gallery:"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:29
+msgctxt "post type slug"
+msgid "gallery"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:38
+msgctxt "taxonomy general name"
+msgid "Gallery Categories"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:39
+msgctxt "taxonomy singular name"
+msgid "Gallery Category"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:40
+msgid "Search Gallery Categories"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:41
+msgid "All Gallery Categories"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:42
+msgid "Parent Gallery Category"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:43
+msgid "Parent Gallery Category:"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:44
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:45
+msgid "Update Gallery Category"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:46
+msgid "Add New Gallery Category"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:47
+msgid "New Gallery Category Name"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:49
+msgid "View Gallery Category"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:50
+msgid "Popular Gallery Categories"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:56
+msgctxt "taxonomy slug"
+msgid "gallery-category"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:69
+msgid "Gallery Settings"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:77
+msgid "Gallery Location. For example: Ibiza, Spain"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:80 inc/custom-fields-page.php:75
+#: inc/custom-fields-page.php:111 inc/custom-fields-page.php:147
+#: inc/custom-fields-page.php:183 inc/widgets/ci-items.php:237
+#: inc/widgets/ci-latest-post-type.php:171
+#, php-format
+msgid "1 Column"
+msgid_plural "%s Columns"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/custom-fields-gallery.php:82
+msgid "Number of columns to display this gallery in:"
+msgstr ""
+
+#: inc/custom-fields-gallery.php:83
+msgid "Enable image captions."
+msgstr ""
+
+#: inc/custom-fields-gallery.php:84 inc/custom-fields-page.php:78
+#: inc/custom-fields-page.php:114 inc/custom-fields-page.php:150
+#: inc/custom-fields-page.php:186
+msgid "Masonry effect."
+msgstr ""
+
+#: inc/custom-fields-gallery.php:85
+msgid ""
+"You can create a featured gallery by pressing the <em>Add Images</em> button "
+"below. You should also set a featured image that will be used as this "
+"Gallery's cover."
+msgstr ""
+
+#: inc/custom-fields-page.php:6
+msgid "Artist Listing Options"
+msgstr ""
+
+#: inc/custom-fields-page.php:7
+msgid "Discography Listing Options"
+msgstr ""
+
+#: inc/custom-fields-page.php:8
+msgid "Gallery Listing Options"
+msgstr ""
+
+#: inc/custom-fields-page.php:9
+msgid "Video Listing Options"
+msgstr ""
+
+#: inc/custom-fields-page.php:10
+msgid "Event Listing Options"
+msgstr ""
+
+#: inc/custom-fields-page.php:57 inc/custom-fields-page.php:93
+#: inc/custom-fields-page.php:129 inc/custom-fields-page.php:165
+#: inc/custom-fields-page.php:202
+msgid ""
+"Select a base category. Only items from the selected category will be "
+"displayed. If you don't select one (i.e. empty) items from all categories "
+"will be shown."
+msgstr ""
+
+#: inc/custom-fields-page.php:58 inc/custom-fields-page.php:94
+#: inc/custom-fields-page.php:130 inc/custom-fields-page.php:166
+#: inc/custom-fields-page.php:205 inc/widgets/ci-events.php:196
+msgid "Base category:"
+msgstr ""
+
+#: inc/custom-fields-page.php:77 inc/custom-fields-page.php:113
+#: inc/custom-fields-page.php:149 inc/custom-fields-page.php:185
+msgid "Listing columns:"
+msgstr ""
+
+#: inc/custom-fields-page.php:79 inc/custom-fields-page.php:115
+#: inc/custom-fields-page.php:151 inc/custom-fields-page.php:187
+msgid "Isotope effect (ignores <em>Items per page</em> setting)."
+msgstr ""
+
+#: inc/custom-fields-page.php:80 inc/custom-fields-page.php:116
+#: inc/custom-fields-page.php:152 inc/custom-fields-page.php:188
+#, php-format
+msgid ""
+"Set the number of items per page that you want to display. Setting this to "
+"<strong>-1</strong> will show <strong>all items</strong>>, while setting it "
+"to zero or leaving it empty, will follow the global option set from "
+"<em>Settings -> Reading</em>, currently set to <strong>%s items per page</"
+"strong>."
+msgstr ""
+
+#: inc/custom-fields-page.php:81 inc/custom-fields-page.php:117
+#: inc/custom-fields-page.php:153 inc/custom-fields-page.php:189
+#: inc/custom-fields-page.php:230
+msgid "Items per page:"
+msgstr ""
+
+#: inc/custom-fields-page.php:203
+msgid ""
+"Please note that this value affects upcoming and past events, as well as "
+"recurrent events."
+msgstr ""
+
+#: inc/custom-fields-page.php:220
+msgid "Show sidebar widgets."
+msgstr ""
+
+#: inc/custom-fields-page.php:221
+msgid "Show upcoming events."
+msgstr ""
+
+#: inc/custom-fields-page.php:222
+msgid "Upcoming events title:"
+msgstr ""
+
+#: inc/custom-fields-page.php:222
+msgid "Upcoming Events"
+msgstr ""
+
+#: inc/custom-fields-page.php:223
+msgid "Show past events."
+msgstr ""
+
+#: inc/custom-fields-page.php:224
+msgid "Past events title:"
+msgstr ""
+
+#: inc/custom-fields-page.php:224
+msgid "Past Events"
+msgstr ""
+
+#: inc/custom-fields-page.php:227
+#, php-format
+msgid ""
+"Set the number of items per page that you want to display. Setting this to "
+"<strong>-1</strong> will show <strong>all items</strong>, while setting it "
+"to zero or leaving it empty, will follow the global option set from "
+"<em>Settings -> Reading</em>, currently set to <strong>%s items per page</"
+"strong>."
+msgstr ""
+
+#: inc/custom-fields-page.php:228
+msgid ""
+"Please note that this value affects upcoming and past events "
+"<strong>independently</strong>, and it does not affect recurrent events. For "
+"example, if you set it to <code>3</code>, all recurrent, 3 upcoming and 3 "
+"past events will be shown."
+msgstr ""
+
+#: inc/custom-fields-slide.php:6
+msgctxt "post type general name"
+msgid "Slideshow"
+msgstr ""
+
+#: inc/custom-fields-slide.php:7 inc/custom-fields-slide.php:23
+msgctxt "post type singular name"
+msgid "Slide"
+msgstr ""
+
+#: inc/custom-fields-slide.php:8
+msgctxt "admin menu"
+msgid "Slideshow"
+msgstr ""
+
+#: inc/custom-fields-slide.php:9
+msgctxt "add new on admin bar"
+msgid "Slideshow"
+msgstr ""
+
+#: inc/custom-fields-slide.php:11
+msgid "Add New Slide"
+msgstr ""
+
+#: inc/custom-fields-slide.php:12
+msgid "Edit Slide"
+msgstr ""
+
+#: inc/custom-fields-slide.php:13
+msgid "New Slide"
+msgstr ""
+
+#: inc/custom-fields-slide.php:14
+msgid "View Slide"
+msgstr ""
+
+#: inc/custom-fields-slide.php:15
+msgid "Search Slides"
+msgstr ""
+
+#: inc/custom-fields-slide.php:16
+msgid "No Slides found"
+msgstr ""
+
+#: inc/custom-fields-slide.php:17
+msgid "No Slides found in the trash"
+msgstr ""
+
+#: inc/custom-fields-slide.php:18
+msgid "Parent Slide:"
+msgstr ""
+
+#: inc/custom-fields-slide.php:29
+msgctxt "post type slug"
+msgid "slide"
+msgstr ""
+
+#: inc/custom-fields-slide.php:38
+msgctxt "taxonomy general name"
+msgid "Slideshow Categories"
+msgstr ""
+
+#: inc/custom-fields-slide.php:39
+msgctxt "taxonomy singular name"
+msgid "Slideshow Category"
+msgstr ""
+
+#: inc/custom-fields-slide.php:40
+msgid "Search Slideshow Categories"
+msgstr ""
+
+#: inc/custom-fields-slide.php:41
+msgid "All Slideshow Categories"
+msgstr ""
+
+#: inc/custom-fields-slide.php:42
+msgid "Parent Slideshow Category"
+msgstr ""
+
+#: inc/custom-fields-slide.php:43
+msgid "Parent Slideshow Category:"
+msgstr ""
+
+#: inc/custom-fields-slide.php:44
+msgid "Edit Slideshow Category"
+msgstr ""
+
+#: inc/custom-fields-slide.php:45
+msgid "Update Slideshow Category"
+msgstr ""
+
+#: inc/custom-fields-slide.php:46
+msgid "Add New Slideshow Category"
+msgstr ""
+
+#: inc/custom-fields-slide.php:47
+msgid "New Slideshow Category Name"
+msgstr ""
+
+#: inc/custom-fields-slide.php:49
+msgid "View Slideshow Category"
+msgstr ""
+
+#: inc/custom-fields-slide.php:50
+msgid "Popular Slideshow Categories"
+msgstr ""
+
+#: inc/custom-fields-slide.php:56
+msgctxt "taxonomy slug"
+msgid "slide-category"
+msgstr ""
+
+#: inc/custom-fields-slide.php:69
+msgid "Slide Settings"
+msgstr ""
+
+#: inc/custom-fields-slide.php:77 inc/widgets/ci-hero.php:125
+msgid "Button text:"
+msgstr ""
+
+#: inc/custom-fields-slide.php:77 inc/widgets/ci-hero.php:100
+#: part-slider.php:63
+msgid "Learn more"
+msgstr ""
+
+#: inc/custom-fields-slide.php:78
+msgid ""
+"Button URL. When someone clicks on this button, this is the link that they "
+"will be visiting. If you leave it empty, linking for this slide will be "
+"disabled."
+msgstr ""
+
+#: inc/custom-fields-slide.php:79
+msgid "Subtext 1 (appears above the title)"
+msgstr ""
+
+#: inc/custom-fields-slide.php:80
+msgid "Subtext 2 (appears above subtext 1)"
+msgstr ""
+
+#: inc/custom-fields-slide.php:81
+msgid "Rotated subtexts."
+msgstr ""
+
+#: inc/custom-fields-video.php:6
+msgctxt "post type general name"
+msgid "Videos"
+msgstr ""
+
+#: inc/custom-fields-video.php:7 inc/custom-fields-video.php:23
+msgctxt "post type singular name"
+msgid "Video"
+msgstr ""
+
+#: inc/custom-fields-video.php:8
+msgctxt "admin menu"
+msgid "Videos"
+msgstr ""
+
+#: inc/custom-fields-video.php:9
+msgctxt "add new on admin bar"
+msgid "Video"
+msgstr ""
+
+#: inc/custom-fields-video.php:11
+msgid "Add New Video"
+msgstr ""
+
+#: inc/custom-fields-video.php:12
+msgid "Edit Video"
+msgstr ""
+
+#: inc/custom-fields-video.php:13
+msgid "New Video"
+msgstr ""
+
+#: inc/custom-fields-video.php:14 item-ci_theme_video.php:9
+#: item-tall-ci_theme_video.php:9
+msgid "View Video"
+msgstr ""
+
+#: inc/custom-fields-video.php:15
+msgid "Search Videos"
+msgstr ""
+
+#: inc/custom-fields-video.php:16
+msgid "No Videos found"
+msgstr ""
+
+#: inc/custom-fields-video.php:17
+msgid "No Videos found in the trash"
+msgstr ""
+
+#: inc/custom-fields-video.php:18
+msgid "Parent Video:"
+msgstr ""
+
+#: inc/custom-fields-video.php:29
+msgctxt "post type slug"
+msgid "video"
+msgstr ""
+
+#: inc/custom-fields-video.php:38
+msgctxt "taxonomy general name"
+msgid "Video Categories"
+msgstr ""
+
+#: inc/custom-fields-video.php:39
+msgctxt "taxonomy singular name"
+msgid "Video Category"
+msgstr ""
+
+#: inc/custom-fields-video.php:40
+msgid "Search Video Categories"
+msgstr ""
+
+#: inc/custom-fields-video.php:41
+msgid "All Video Categories"
+msgstr ""
+
+#: inc/custom-fields-video.php:42
+msgid "Parent Video Category"
+msgstr ""
+
+#: inc/custom-fields-video.php:43
+msgid "Parent Video Category:"
+msgstr ""
+
+#: inc/custom-fields-video.php:44
+msgid "Edit Video Category"
+msgstr ""
+
+#: inc/custom-fields-video.php:45
+msgid "Update Video Category"
+msgstr ""
+
+#: inc/custom-fields-video.php:46
+msgid "Add New Video Category"
+msgstr ""
+
+#: inc/custom-fields-video.php:47
+msgid "New Video Category Name"
+msgstr ""
+
+#: inc/custom-fields-video.php:49
+msgid "View Video Category"
+msgstr ""
+
+#: inc/custom-fields-video.php:50
+msgid "Popular Video Categories"
+msgstr ""
+
+#: inc/custom-fields-video.php:56
+msgctxt "taxonomy slug"
+msgid "video-category"
+msgstr ""
+
+#: inc/custom-fields-video.php:69
+msgid "Video Settings"
+msgstr ""
+
+#: inc/custom-fields-video.php:77
+#, php-format
+msgid ""
+"In the following box, you can simply enter the URL of a supported website's "
+"video. It needs to start with <code>http://</code> or <code>https://</code> "
+"(E.g. <code>%1$s</code>). A list of supported websites can be <a href=\"%2$s"
+"\">found here</a>."
+msgstr ""
+
+#: inc/custom-fields-video.php:78
+msgid "Video URL:"
+msgstr ""
+
+#: inc/custom-fields-video.php:80
+msgid "Video Location. For example: Ibiza, Spain"
+msgstr ""
+
+#: inc/customizer-controls/flexslider.php:83
+msgid "Show slider."
+msgstr ""
+
+#: inc/customizer-controls/flexslider.php:90
+msgid "Auto slide."
+msgstr ""
+
+#: inc/customizer-controls/flexslider.php:119
+msgid "Source category"
+msgstr ""
+
+#: inc/customizer-controls/flexslider.php:126
+msgid "Slide change effect:"
+msgstr ""
+
+#: inc/customizer-controls/flexslider.php:128
+msgctxt "slider effect"
+msgid "Slide"
+msgstr ""
+
+#: inc/customizer-controls/flexslider.php:129
+msgctxt "slider effect"
+msgid "Fade"
+msgstr ""
+
+#: inc/customizer-controls/flexslider.php:136
+msgid "Slide change direction:"
+msgstr ""
+
+#: inc/customizer-controls/flexslider.php:137
+msgid "Only applicable when slide effect is <strong>Slide</strong>."
+msgstr ""
+
+#: inc/customizer-controls/flexslider.php:139
+msgctxt "slider effect direction"
+msgid "Horizontal"
+msgstr ""
+
+#: inc/customizer-controls/flexslider.php:140
+msgctxt "slider effect direction"
+msgid "Vertical"
+msgstr ""
+
+#: inc/customizer-controls/flexslider.php:147
+msgid "Pause between slides (in milliseconds):"
+msgstr ""
+
+#: inc/customizer-controls/flexslider.php:154
+msgid "Duration of animation (in milliseconds):"
+msgstr ""
+
+#: inc/customizer.php:11
+msgctxt "customizer section title"
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer.php:18
+msgctxt "customizer section title"
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer.php:23
+msgctxt "customizer section title"
+msgid "Front Page"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid "Content Colors"
+msgstr ""
+
+#: inc/customizer.php:38
+msgctxt "customizer section title"
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer.php:45
+msgctxt "customizer section title"
+msgid "Titles"
+msgstr ""
+
+#: inc/customizer.php:50
+msgctxt "customizer section title"
+msgid "Other"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid "Other options affecting the whole site."
+msgstr ""
+
+#: inc/customizer.php:75
+msgid "Automatically generated excerpt length (in words)"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Pagination method"
+msgstr ""
+
+#: inc/customizer.php:87
+msgctxt "pagination method"
+msgid "Numbered links"
+msgstr ""
+
+#: inc/customizer.php:88
+msgctxt "pagination method"
+msgid "\"Previous - Next\" links"
+msgstr ""
+
+#: inc/customizer.php:104
+msgid "Show tagline."
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "Sticky header."
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Home Video"
+msgstr ""
+
+#: inc/customizer.php:129
+msgid ""
+"You can have a video appearing in your home page, by simply providing a URL "
+"to the video, depending on its format. You should convert your video to all "
+"available formats for maximum browser compatibility."
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Show home video."
+msgstr ""
+
+#: inc/customizer.php:150
+msgid "MP4 video URL"
+msgstr ""
+
+#: inc/customizer.php:160
+msgid "WebM video URL"
+msgstr ""
+
+#: inc/customizer.php:170
+msgid "OGG video URL"
+msgstr ""
+
+#: inc/customizer.php:176
+msgid "Home Slider"
+msgstr ""
+
+#: inc/customizer.php:177
+msgid "Fine-tune the homepage slider."
+msgstr ""
+
+#: inc/customizer.php:188
+msgid "Home Player Tracklisting"
+msgstr ""
+
+#: inc/customizer.php:189
+msgid ""
+"Select the discography from which you want the tracks to appear on the front "
+"page player."
+msgstr ""
+
+#: inc/customizer.php:201
+msgid "Home Player Stream URL"
+msgstr ""
+
+#: inc/customizer.php:202
+msgid ""
+"Your home player can also play SHOUTcast / Icecast streams. Enter the stream "
+"URL here. Please note that if you enter a stream URL, the above selected "
+"discography tracklisting will be ignored."
+msgstr ""
+
+#: inc/customizer.php:206 part-player.php:10
+msgid "Streaming audio"
+msgstr ""
+
+#: inc/customizer.php:212
+msgid "Home Player Stream name"
+msgstr ""
+
+#: inc/customizer.php:225
+msgid "Color scheme"
+msgstr ""
+
+#: inc/customizer.php:236
+msgid "Background color"
+msgstr ""
+
+#: inc/customizer.php:245
+msgid "Primary color"
+msgstr ""
+
+#: inc/customizer.php:254
+msgid "Secondary color"
+msgstr ""
+
+#: inc/customizer.php:263
+msgid "Text color"
+msgstr ""
+
+#: inc/customizer.php:272
+msgid "Border Color"
+msgstr ""
+
+#: inc/customizer.php:280 index.php:10 single.php:5
+msgid "From the Blog"
+msgstr ""
+
+#: inc/customizer.php:286
+msgid "Blog title"
+msgstr ""
+
+#: inc/customizer.php:290 search.php:5
+msgid "Search results"
+msgstr ""
+
+#: inc/customizer.php:296
+msgid "Search title"
+msgstr ""
+
+#: inc/customizer.php:306
+msgid "404 (not found) title"
+msgstr ""
+
+#: inc/customizer.php:321
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer.php:331
+msgid "Enable Google Maps API."
+msgstr ""
+
+#: inc/customizer.php:332
+msgid ""
+"The Google Maps API must only be loaded once in each page. Since many "
+"plugins may try to load it as well, you might want to disable it from the "
+"theme to avoid potential errors."
+msgstr ""
+
+#: inc/customizer.php:342
+msgid "Google Maps API key"
+msgstr ""
+
+#: inc/customizer.php:343
+#, php-format
+msgid ""
+"While your maps can be displayed without an API key, if you get a lot of "
+"visits to your site (more than 25,000 per day currently), the maps might "
+"stop working. In that case, you need to issue a key from <a href=\"%s"
+"\">Google Accounts</a>"
+msgstr ""
+
+#: inc/customizer.php:355
+msgid "Header Color"
+msgstr ""
+
+#: inc/customizer.php:356
+msgid ""
+"Select a color for your header. This will not be visible if you set a header "
+"image, unless the image itself has transparent areas."
+msgstr ""
+
+#: inc/customizer.php:366
+msgid "Header Color (front page)"
+msgstr ""
+
+#: inc/customizer.php:367
+msgid ""
+"On the front page, the header overlaps the featured slider / video, so only "
+"a color can be set. For best results, adjust the color transparency "
+"accordingly."
+msgstr ""
+
+#: inc/customizer.php:383
+msgid "Footer text"
+msgstr ""
+
+#: inc/customizer.php:384
+msgid ""
+"Allowed tags: a (href|class), img (src|class), span (class), i (class), b, "
+"em, strong."
+msgstr ""
+
+#: inc/customizer.php:395
+msgid "WP Instagram: Slideshow"
+msgstr ""
+
+#: inc/customizer.php:405
+msgid "WP Instagram: Slideshow Speed"
+msgstr ""
+
+#: inc/customizer.php:420
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:421
+msgid ""
+"If an image is selected, it will replace the default textual logo (site "
+"name) on the header."
+msgstr ""
+
+#: inc/customizer.php:431
+msgid "Logo top padding"
+msgstr ""
+
+#: inc/customizer.php:441
+msgid "Logo bottom padding"
+msgstr ""
+
+#: inc/downloads-handler.php:71
+msgid "Download Handler: Access to this file is not permitted."
+msgstr ""
+
+#: inc/downloads-handler.php:90
+msgid "Download Handler: Unknown error."
+msgstr ""
+
+#: inc/functions.php:15
+msgid "Previous page"
+msgstr ""
+
+#: inc/functions.php:16
+msgid "Next page"
+msgstr ""
+
+#: inc/helpers-post-meta.php:22
+msgid "Select file"
+msgstr ""
+
+#: inc/helpers-post-meta.php:23
+msgid "Select files"
+msgstr ""
+
+#: inc/helpers-post-meta.php:24
+msgid "Use this file"
+msgstr ""
+
+#: inc/helpers-post-meta.php:25
+msgid "Use these files"
+msgstr ""
+
+#: inc/helpers-post-meta.php:26
+msgid "Update gallery"
+msgstr ""
+
+#: inc/helpers-post-meta.php:27
+msgid "Loading..."
+msgstr ""
+
+#: inc/helpers-post-meta.php:28
+msgid "Gallery preview not available."
+msgstr ""
+
+#: inc/helpers-post-meta.php:29
+msgid "Remove image"
+msgstr ""
+
+#: inc/helpers-post-meta.php:30 inc/helpers-post-meta.php:426
+msgid "Remove from gallery"
+msgstr ""
+
+#: inc/helpers-post-meta.php:263
+msgid "Click to toggle"
+msgstr ""
+
+#: inc/helpers-post-meta.php:415
+msgid "Add Images"
+msgstr ""
+
+#: inc/helpers-post-meta.php:417
+msgid "Randomize order"
+msgstr ""
+
+#: inc/helpers-post-meta.php:432
+msgid "Your gallery images will appear here"
+msgstr ""
+
+#: inc/helpers.php:13
+#, php-format
+msgid ""
+"It looks like the theme was just installed. <a href=\"%s\" target=\"_blank"
+"\">Download the sample content</a> to get things moving."
+msgstr ""
+
+#: inc/widgets/ci-events.php:8
+msgid "Theme - Events"
+msgstr ""
+
+#: inc/widgets/ci-events.php:9
+msgid "Display upcoming, past, or recurring events."
+msgstr ""
+
+#: inc/widgets/ci-events.php:210
+msgid "Show recurring events."
+msgstr ""
+
+#: inc/widgets/ci-events.php:211
+msgid "Number of upcoming events (0 to disable):"
+msgstr ""
+
+#: inc/widgets/ci-events.php:214 inc/widgets/ci-hero.php:129
+#: inc/widgets/ci-items.php:244 inc/widgets/ci-latest-post-type.php:178
+#: inc/widgets/ci-text.php:123 inc/widgets/ci-tracklisting.php:154
+msgid "Custom Colors"
+msgstr ""
+
+#: inc/widgets/ci-events.php:216 inc/widgets/ci-hero.php:131
+#: inc/widgets/ci-items.php:246 inc/widgets/ci-latest-post-type.php:180
+#: inc/widgets/ci-text.php:125 inc/widgets/ci-tracklisting.php:156
+msgid "Foreground Color:"
+msgstr ""
+
+#: inc/widgets/ci-events.php:217 inc/widgets/ci-hero.php:132
+#: inc/widgets/ci-items.php:247 inc/widgets/ci-latest-post-type.php:181
+#: inc/widgets/ci-text.php:126 inc/widgets/ci-tracklisting.php:157
+msgid "Background Color:"
+msgstr ""
+
+#: inc/widgets/ci-events.php:219 inc/widgets/ci-hero.php:134
+#: inc/widgets/ci-items.php:249 inc/widgets/ci-latest-post-type.php:183
+#: inc/widgets/ci-text.php:128 inc/widgets/ci-tracklisting.php:159
+msgid "Background Image:"
+msgstr ""
+
+#: inc/widgets/ci-events.php:219 inc/widgets/ci-hero.php:134
+#: inc/widgets/ci-items.php:249 inc/widgets/ci-latest-post-type.php:183
+#: inc/widgets/ci-text.php:128 inc/widgets/ci-tracklisting.php:159
+msgid "Upload"
+msgstr ""
+
+#: inc/widgets/ci-events.php:221 inc/widgets/ci-hero.php:136
+#: inc/widgets/ci-items.php:251 inc/widgets/ci-latest-post-type.php:185
+#: inc/widgets/ci-text.php:130 inc/widgets/ci-tracklisting.php:161
+msgid "Background Repeat:"
+msgstr ""
+
+#: inc/widgets/ci-events.php:223 inc/widgets/ci-hero.php:138
+#: inc/widgets/ci-items.php:253 inc/widgets/ci-latest-post-type.php:187
+#: inc/widgets/ci-text.php:132 inc/widgets/ci-tracklisting.php:163
+msgid "Repeat"
+msgstr ""
+
+#: inc/widgets/ci-events.php:224 inc/widgets/ci-hero.php:139
+#: inc/widgets/ci-items.php:254 inc/widgets/ci-latest-post-type.php:188
+#: inc/widgets/ci-text.php:133 inc/widgets/ci-tracklisting.php:164
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/widgets/ci-events.php:225 inc/widgets/ci-hero.php:140
+#: inc/widgets/ci-items.php:255 inc/widgets/ci-latest-post-type.php:189
+#: inc/widgets/ci-text.php:134 inc/widgets/ci-tracklisting.php:165
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/widgets/ci-events.php:226 inc/widgets/ci-hero.php:141
+#: inc/widgets/ci-items.php:256 inc/widgets/ci-latest-post-type.php:190
+#: inc/widgets/ci-text.php:135 inc/widgets/ci-tracklisting.php:166
+msgid "No Repeat"
+msgstr ""
+
+#: inc/widgets/ci-events.php:230 inc/widgets/ci-hero.php:145
+#: inc/widgets/ci-items.php:260 inc/widgets/ci-latest-post-type.php:194
+#: inc/widgets/ci-text.php:139 inc/widgets/ci-tracklisting.php:170
+msgid "Parallax effect (requires a background image)."
+msgstr ""
+
+#: inc/widgets/ci-events.php:231 inc/widgets/ci-hero.php:146
+#: inc/widgets/ci-items.php:261 inc/widgets/ci-latest-post-type.php:195
+#: inc/widgets/ci-text.php:140 inc/widgets/ci-tracklisting.php:171
+msgid "Parallax speed (1-10):"
+msgstr ""
+
+#: inc/widgets/ci-hero.php:8
+msgid "Theme - Hero text"
+msgstr ""
+
+#: inc/widgets/ci-hero.php:9
+msgid "Display a hero text with image"
+msgstr ""
+
+#: inc/widgets/ci-hero.php:123
+msgid "Text:"
+msgstr ""
+
+#: inc/widgets/ci-items.php:8
+msgid "Displays a hand-picked selection of posts from a selected post type."
+msgstr ""
+
+#: inc/widgets/ci-items.php:10
+msgid "Theme - Items"
+msgstr ""
+
+#: inc/widgets/ci-items.php:164
+msgid ""
+"Add as many items as you want by pressing the \"Add Item\" button. Remove "
+"any item by selecting \"Remove me\"."
+msgstr ""
+
+#: inc/widgets/ci-items.php:173 inc/widgets/ci-items.php:205
+msgid "Post type:"
+msgstr ""
+
+#: inc/widgets/ci-items.php:182 inc/widgets/ci-items.php:214
+msgid "Item:"
+msgstr ""
+
+#: inc/widgets/ci-items.php:227
+msgid "Add Item"
+msgstr ""
+
+#: inc/widgets/ci-items.php:231 inc/widgets/ci-latest-post-type.php:165
+msgid "Output Columns:"
+msgstr ""
+
+#: inc/widgets/ci-latest-post-type.php:6
+msgid ""
+"Displays a number of the latest (or random) posts from a specific post type."
+msgstr ""
+
+#: inc/widgets/ci-latest-post-type.php:8
+msgid "Theme - Latest Post Type"
+msgstr ""
+
+#: inc/widgets/ci-latest-post-type.php:152
+msgid "Select a post type to display the latest post from"
+msgstr ""
+
+#: inc/widgets/ci-latest-post-type.php:161
+msgid "Show random posts."
+msgstr ""
+
+#: inc/widgets/ci-latest-post-type.php:162
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/ci-text.php:8
+msgid "Theme - Text"
+msgstr ""
+
+#: inc/widgets/ci-text.php:9
+msgid "Similar to the default text widget, but with extra color options."
+msgstr ""
+
+#: inc/widgets/ci-text.php:114
+msgid "Content:"
+msgstr ""
+
+#: inc/widgets/ci-text.php:119
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: inc/widgets/ci-tracklisting.php:11
+msgid "Theme - Tracklisting"
+msgstr ""
+
+#: inc/widgets/ci-tracklisting.php:12
+msgid "Display a discography's track listing."
+msgstr ""
+
+#: inc/widgets/ci-tracklisting.php:140
+msgid "Title (optional):"
+msgstr ""
+
+#: inc/widgets/ci-tracklisting.php:143
+msgid "Select Discography Item:"
+msgstr ""
+
+#: inc/widgets/ci-tracklisting.php:151
+msgid "Show album image."
+msgstr ""
+
+#: index.php:41 search.php:53
+msgid "Read More"
+msgstr ""
+
+#: item-ci_theme_artist.php:10 item-ci_theme_disco.php:13
+#: item-tall-ci_theme_artist.php:10 item-tall-ci_theme_disco.php:13 item.php:8
+msgid "Learn More"
+msgstr ""
+
+#: search.php:14
+msgid "No results found. Please broaden your terms and search again."
+msgstr ""
+
+#: search.php:15
+msgid ""
+"Just one result found. We either nailed it, or you might want to broaden "
+"your terms and search again."
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "%d result found."
+msgid_plural "%d results found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: searchform.php:3
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:4
+msgctxt "search box placeholder"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:5
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: single-ci_theme_disco.php:30
+msgid "Release Date"
+msgstr ""
+
+#: single-ci_theme_disco.php:37
+msgid "Record Label"
+msgstr ""
+
+#: single-ci_theme_disco.php:44
+msgid "Catalog Number"
+msgstr ""
+
+#. translators: %d: number of days
+#: single-ci_theme_event.php:65
+#, php-format
+msgid "<b>%d</b><span>Days</span>"
+msgstr ""
+
+#. translators: %d: number of hours
+#: single-ci_theme_event.php:71
+#, php-format
+msgid "<b>%d</b><span>Hours</span>"
+msgstr ""
+
+#. translators: %d: number of minutes
+#: single-ci_theme_event.php:77
+#, php-format
+msgid "<b>%d</b><span>Minutes</span>"
+msgstr ""
+
+#: single-ci_theme_event.php:89 single-ci_theme_event.php:96
+msgctxt "event date"
+msgid "Date"
+msgstr ""
+
+#: single-ci_theme_event.php:103
+msgctxt "event time"
+msgid "Time"
+msgstr ""
+
+#: single-ci_theme_event.php:111
+msgctxt "event location"
+msgid "Location"
+msgstr ""
+
+#: single-ci_theme_event.php:118
+msgctxt "event venue"
+msgid "Venue"
+msgstr ""
+
+#: single-ci_theme_video.php:36
+msgid "Location"
+msgstr ""
+
+#: template-listing-artist.php:66 template-listing-discography.php:65
+#: template-listing-gallery.php:65 template-listing-video.php:65
+msgid "All Items"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Oscillator"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.cssigniter.com/ignite/themes/oscillator"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A Music Theme for WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CSSIgniter"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.cssigniter.com"
+msgstr ""

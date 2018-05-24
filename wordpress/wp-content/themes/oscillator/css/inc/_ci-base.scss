@@ -1,0 +1,617 @@
+/* -----------------------------------------
+	01. General
+----------------------------------------- */
+
+/* Basic Typography
+=================================== */
+body {
+	line-height: 1.5;
+	font-size: 16px;
+	color: $text-color;
+	font-family: $primary-font;
+	background-color: #FFF;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $secondary-font;
+	line-height: normal;
+	margin: 0 0 15px 0;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 26px; }
+h3 { font-size: 24px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+p {
+	margin: 0 0 15px 0;
+}
+
+img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	transition: color 0.18s ease, background-color 0.18s ease, border-color 0.18s ease;
+	outline: none;
+	color: $primary-color;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: lighten($primary-color, 10%);
+		outline: none;
+		text-decoration: none;
+	}
+
+	&:active {
+		outline: none;
+	}
+}
+
+.group {
+	@include clearfix();
+}
+
+/* General Element Styling
+=================================== */
+
+/* Reset figure margin from normalize.css */
+figure {
+	margin: 0;
+}
+
+/* Lists */
+ul, ol {
+	padding-left: 20px;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+dl {
+	margin: 0 0 20px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 15px;
+}
+
+/* Blockquotes */
+blockquote {
+	margin: 20px 0;
+	padding-left: 15px;
+	border-left: 3px solid #ccc;
+	font-size: 17px;
+	font-weight: 300;
+
+	cite {
+		display: block;
+		font-weight: bold;
+		font-style: italic;
+		margin: 10px 0 0;
+		color: rgba($text-color, 0.8);
+		font-size: 14px
+	}
+}
+
+/* Tables */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	width: 100%;
+}
+
+.entry-content {
+	table {
+		border-width: 1px 0 0 1px;
+		margin-bottom: 24px;
+	}
+
+	th:first-child,
+	td:first-child {
+		padding-left: 0;
+	}
+
+	th,
+	td {
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+	}
+
+	caption,
+	th,
+	td {
+		font-weight: normal;
+		text-align: left;
+		padding: 5px;
+		vertical-align: middle;
+	}
+
+	th {
+		border-width: 0 1px 1px 0;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 85%;
+	}
+
+	td {
+		border-width: 0 1px 1px 0;
+	}
+}
+
+/* Code */
+code, kbd, tt, var, samp, pre {
+	font-family: monospace, serif;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	font-style: normal;
+}
+
+pre {
+	padding: 15px;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Various */
+address {
+	margin: 0 0 15px;
+}
+
+.sr-only,
+.screen-reader-text {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
+
+/* Embeds and iframes
+=================================== */
+
+embed,
+iframe,
+object,
+video,
+audio {
+	margin-bottom: 15px;
+	max-width: 100%;
+}
+
+p > embed,
+p > iframe,
+p > object,
+p > audio,
+span > embed,
+span > iframe,
+span > object,
+span > audio {
+	margin-bottom: 0;
+}
+
+#map,
+.map * {
+	max-width: none !important;
+}
+
+
+/* General Form Styling
+=================================== */
+
+label {
+	display: block;
+	margin: 0 0 2px;
+	font-weight: normal;
+
+	.form & {
+		margin-left: 12px;
+	}
+}
+
+input,
+textarea {
+	display: inline-block;
+	font-size: inherit;
+	width: 100%;
+	max-width: 100%;
+	height: 44px;
+	padding: 12px 18px 14px;
+	box-shadow: none;
+	line-height: normal;
+	border: 2px solid $border-color;
+	background-color: #FFF;
+	background-image: none;
+	border-radius: 24px;
+
+	&:hover {
+		border-color: darken($border-color, 5%);
+	}
+
+	&:focus {
+		border-color: darken($border-color, 10%);
+		outline: none;
+	}
+
+	@media ( max-width: $screen-xs-max ) {
+		width: 100%;
+	}
+}
+
+input[type="search"] { /* Restoring box-sizing */
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+textarea {
+	height: auto;
+}
+
+select {
+	max-width: 100%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin: 4px 0 0;
+	margin-top: 1px \9; // IE8-9
+	line-height: normal;
+	width: auto;
+	height: auto;
+}
+
+fieldset {
+	margin: 0 0 15px;
+	padding: 0;
+	border: none;
+	min-width: 0;
+}
+
+/* Placeholder text color */
+@include placeholder {
+	color: rgba($text-color, 0.5);
+	font-weight: normal;
+	opacity: 1;
+}
+
+
+/* Buttons
+=================================== */
+
+.btn,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+	display: inline-block;
+	font-weight: 700;
+	margin: 0;
+	line-height: normal;
+	border: none;
+	box-shadow: none;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	border-radius: 24px;
+	min-width: 190px;
+	width: auto;
+	height: auto;
+	padding: 12px 25px 12px;
+	font-size: 13px;
+	color: $text-on-primary;
+	@include linear-gradient();
+	text-transform: uppercase;
+	font-family: $secondary-font;
+	position: relative;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	z-index: 0;
+
+	&:active {
+		outline: none;
+		color: $text-on-primary;
+	}
+
+	&:hover {
+		color: $text-on-primary;
+		text-decoration: none;
+		
+		&:before {
+			-moz-transform: scaleX(1);
+			-webkit-transform: scaleX(1);
+   		transform: scaleX(1);
+		}
+	}
+
+	&:focus {
+		outline: none;
+		color: $text-on-primary;
+	}
+
+	&:before {
+		border-radius: 24px;
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: $primary-color;
+		z-index: -1;
+		-webkit-transform: scaleX(0);
+		-moz-transform: scaleX(0);
+		transform: scaleX(0);
+		-webkit-transform-origin: 10%;
+		-moz-transform-origin: 10%;
+		transform-origin: 10%;
+		-webkit-transition: transform 0.3s ease;
+		-moz-transition: transform 0.3s ease;
+		-ms-transition: transform 0.3s ease;
+		-o-transition: transform 0.3s ease;
+		transition: transform 0.3s ease;
+	}
+
+	&.btn-round {
+		min-width: 0;
+		padding-left: 5px;
+		padding-right: 5px;
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+	}
+
+	&.btn-white {
+		color: $text-color;
+		background: #FFF;
+		border-color: #FFF;
+
+		&:before {
+			display: none;
+		}
+
+		&.btn-transparent {
+			color: #FFF;
+		}
+
+		&:hover {
+			@include linear-gradient();
+			color: $text-on-primary;
+		}
+	}
+
+	&.btn-transparent {
+		background: none;
+		border-width: 2px;
+		border-style: solid;
+		border-color: $border-color;
+		color: $text-color;
+
+		&:hover {
+			@include linear-gradient();
+			color: $text-on-primary;
+		}
+
+		i {
+			font-size: 1.1em;
+			position: relative;
+			top: -2px;
+			left: 1px;
+		}
+
+		&:before {
+			display: none;
+		}
+	}
+
+	&.btn-inactive {
+		background: #FFF;
+		border: 2px solid #EBEBEB;
+		color: #b2b2b2;
+
+		&:before {
+			display: none;
+		}
+
+		&:hover {
+			background: #FFF;
+			border: 2px solid #EBEBEB;
+			color: #b2b2b2;
+		}
+	}
+
+	&.btn-small {
+		min-width: 100px;
+		padding: 8px 25px;
+	}
+}
+
+
+/* CI-Slider Overrides
+=================================== */
+
+.ci-slider {
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+	border-radius: 0;
+	border: 0;
+
+	.slides li:after {
+		content: " ";
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:-1000;
+	}
+}
+
+.ci-direction-nav a {
+	top: 50%;
+	opacity: 0.7;
+	line-height: normal;
+
+	&:before {
+		color: #FFF;
+	}
+
+	&:hover {
+		color: #FFF;
+		opacity: 1;
+	}
+}
+
+.ci-slider .slides > li:first-child {
+	display: block; /* Display flexslider's first item no matter if its loading or not */
+	-webkit-backface-visibility: visible;
+}
+
+.ci-slider.loading .slides > li:first-child {
+	opacity: 1 !important; /* Remove the fade in/out animation when the slider loads */
+}
+
+/* Magnific Popup Overrides
+=================================== */
+.mfp-bg {
+	background-color: #000;
+}
+
+.mfp-preloader {
+	color: #FFF;
+
+	a, a:hover {
+		color: $primary-color;
+	}
+}
+
+.mfp-container:not(.mfp-s-error) {
+	.mfp-preloader {
+		@include spinner;
+		background-color: $primary-color;
+		text-indent: -999em;
+		margin: 0 auto;
+	}
+}
+
+button.mfp-close,
+button.mfp-arrow {
+	border: none;
+	opacity: 1;
+
+	&:before {
+		display: none;
+	}
+
+	&:hover {
+		background: none;
+		border: none;
+	}
+}
+
+.mfp-close-btn-in {
+	.mfp-close {
+		color: #FFF;
+	}
+}
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+	color: $primary-color;
+}
+
+.mfp-title {
+	color: #FFF;
+	font-size: 14px;
+	padding: 5px 0;
+}
+
+.mfp-arrow {
+	line-height: 0.3;
+
+	&:before,
+	&:after {
+		border: none;
+	}
+
+	&:after {
+		font-family: FontAwesome;
+		font-size: 70px;
+		color: $primary-color;
+	}
+}
+
+.mfp-arrow-right {
+	&:after,
+	.mpf-a {
+		content: "\f105";
+	}
+}
+
+.mfp-arrow-left {
+	&:after,
+	.mpf-a {
+		content: "\f104";
+	}
+}
+
+.mfp-inline-holder {
+	.mfp-close {
+		color: $text-color;
+		min-width: 0;
+
+		&:after,
+		&:before {
+			display: none;
+		}
+	}
+}
+
+/* Text Alignment Helpers
+=================================== */
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-justified {
+	text-align: justify;
+}

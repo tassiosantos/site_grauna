@@ -1,0 +1,22 @@
+$grid-columns:      12 !default;
+$grid-gutter-width: 30px !default;
+
+$screen-xs-min: 480px !default;
+$screen-sm-min: 768px !default;
+$screen-md-min: 992px !default;
+$screen-lg-min: 1200px !default;
+
+$screen-xs-max: ($screen-sm-min - 1) !default;
+$screen-sm-max: ($screen-md-min - 1) !default;
+$screen-md-max: ($screen-lg-min - 1) !default;
+
+$primary-color: #f3430c !default;
+$secondary-color: #F3890B !default;
+$text-color: #555 !default;
+$secondary-text-color: #626262 !default;
+$text-on-primary: #FFFFFF !default;
+$secondary-text-on-primary: #333333 !default;
+$border-color: #EBEBEB !default;
+
+$primary-font: 'Lato', sans-serif;
+$secondary-font: 'Montserrat', sans-serif;
